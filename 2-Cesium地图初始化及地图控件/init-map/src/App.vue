@@ -12,7 +12,7 @@ const global = appContext.config.globalProperties;
 //必须在挂载后引入cesium地图组件
 onMounted(() => {
   Cesium.Ion.defaultAccessToken =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5ZGJlOTBmMi0xYjNmLTRhMzYtOTlhMy0zNGIwOGUyNGFkYTUiLCJpZCI6MTE1MTg3LCJpYXQiOjE2Njg2NzM2NTB9.kQwPYh1h1KTzNcwTFkoW36f8DpbDGhdDhrpzHHFUfTk";
+    "<your cesium token>";
   const esri = new Cesium.ArcGisMapServerImageryProvider({
     url: "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
     enablePickFeatures: false,
